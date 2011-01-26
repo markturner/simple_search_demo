@@ -1,0 +1,2364 @@
+<html>
+ 	<head>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="jquery.getUrlParam.js" type="text/javascript" charset="utf-8"></script>   		
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$(".coursecontent").hide();
+			
+			var area = $(document).getUrlParam("area");
+			var level = $(document).getUrlParam("level");
+			var time = $(document).getUrlParam("time");
+			var string = "";
+
+			if (area) {
+				string = string + "." + area;
+			}
+			if (level) {
+				string = string + "." + level;
+			}
+			if (time) {
+				string = string + "." + time;
+			}
+	    	$(string).show();
+
+		});
+   		</script>
+
+		<title>Javascript 'search' demo</title>
+ 	</head>
+
+ 	<body>
+   		<form>
+			<p>Find a Course</p>
+		    	<p>We have something for everyone!</p>
+		    	<div class="BoxBody">
+		    		<select id="area" name="area" size=1 style="outline: none">
+ 			    	    <option value="" selected>Select Course area</option>
+ 			    	    <option value="">Any</option>
+ 			    	    <option value="barry">Barry</option>
+ 			    	    <option value="canton">Canton</option>
+ 			    	    <option value="cardiffbay">Cardiff Bay</option>
+ 			    	    <option value="cardiffcentre">Cardiff Centre</option>
+ 			    	    <option value="cowbridge">Cowbridge</option>	
+ 			    	    <option value="creigiau">Creigiau</option>
+ 			    	    <option value="ely">Ely</option>
+ 			    	    <option value="grangetown">Grangetown</option>		
+ 			    	    <option value="gwaelodygarth">Gwaelod y Garth</option>
+ 			    	    <option value="llandaf">Llandaf</option>
+ 			    	    <option value="llanishen">Llanishen</option>
+ 			    	    <option value="llanrumney">Llanrumney</option>
+ 			    	    <option value="llantwitmajor">Llantwit Major</option>
+ 			    	    <option value="penarth">Penarth</option>
+ 			    	    <option value="pentwyn">Pentwyn</option>
+ 			    	    <option value="pontprennau">Pontprennau</option>
+ 			    	    <option value="rhiwbina">Rhiwbina</option>
+ 			    	    <option value="roath">Roath</option>
+ 			    	    <option value="rumney">Rumney</option>
+ 			    	    <option value="splott">Splott</option>
+ 			    	    <option value="st Athan">St Athan</option>
+ 			    	    <option value="whitchurch">Whitchurch</option>
+ 			    	    <option value="wick">Wick</option>
+		    	  	</select>
+		    	  	<br />
+		    		<select name="level" size=1 style="outline: none">
+			    		<option value="" selected>Select Course level</option>
+			    	    <option value="">Any</option>
+			    	    <option value="pre">Pre-entry/Taster</option>
+			    	    <option value="entry">Entry</option>
+					    <option value="wlpan">Entry &amp; Foundation (Wlpan)</option>
+			    	    <option value="foundation">Foundation</option>
+			    	    <option value="intermediate">Intermediate</option>
+			    	    <option value="higher">Higher</option>
+			    	    <option value="proficiency">Proficiency/Fine-Tuning</option>
+		    	  	</select>
+		    	  	<br />
+		    	  	<select name="time" size=1 style="outline: none">
+		    	  		<option value="" selected>Select Course time</option>
+		    	  		<option value="">Any</option>
+		    	  		<option value="morning">Morning</option>
+		    	  		<option value="lunchtime">Lunchtime</option>
+		    	  		<option value="afternoon">Afternoon</option>
+		    	  		<option value="evening">Evening</option>
+		    	  	</select>
+		    	  	<br />
+		    	  	<input id="button" type="submit" value="Search" style="outline: none">
+		    	</div>
+		    </form>
+		    
+		
+			<!-- start of entry level -->
+			
+			<div class="coursecontent barry entry morning">
+			Barry  Barry Community Enterprise Centre, Skomer Rd. Gibbonsdown. CF62 9DA 
+
+
+			CDM009 - Entry 1
+			23/09/2009
+			16/06/2010
+			Wed
+			09:30 - 11:30
+			30 weeks
+			60
+			139 125.10
+			PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Mynediad  - Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="23/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="09:30 - 11:30" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Barry" />
+				 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+			</div>
+
+			<div class="coursecontent barry entry morning">
+			Barry  Gibbonsdown Community Centre, Ramsay Rd. CF62 9DF 
+
+			CDM0011 - Entry 2
+			21/09/2009
+			14/06/2010
+			Mon
+			10:00 - 12:00
+			30 weeks
+			60
+			139 125.10
+			PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM0011" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Mynediad  - Entry 2" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="21/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="10:00 - 12:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Barry" />
+				 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+				 	 	 	 	 	  </form>
+			</div>
+
+			<div class="coursecontent barry entry morning">
+			Barry  The Drop  in Centre, 3 Dublin Court,Castleland.  CF63 4JY  
+			CDM028 - Entry 1
+			04/11/2009
+			16/06/2010
+			Wed
+			10:00 - 12:00
+			30 weeks
+			60
+			139 125.10
+			PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM028" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Mynediad  - Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="04/11/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="10:00 - 12:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Barry" />
+				 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+				 	 	 	 	 	  </form>
+			</div>
+
+			<div class="coursecontent barry entry evening">
+			Barry  Ysgol Saint Baruc, CF62 8HT 
+
+
+
+			CDM010 - Entry 2
+			21/09/2009
+			14/06/2010
+			Mon
+			19:00 - 21:00
+			30 weeks
+			60
+			139 125.10
+			PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM010" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Mynediad  - Entry 2" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="21/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19:00 - 21:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Barry" />
+				 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+				 	 	 	 	 	  </form>
+			</div>
+
+			<div class="coursecontent barry entry evening">
+			Barry  Barry College, Colcot Rd, CF62 8YJ 
+
+
+			CBM001 - Entry 1
+			14/09/2009
+			07/06/2010
+			Mon
+			18:30 - 20:30
+			30 weeks
+			60
+
+			CB
+			</div>
+
+			<div class="coursecontent barry entry evening">
+				Barry  Barry College, Colcot Rd, CF62 8YJ 
+				
+			CBM002 - Entry 1
+			14/09/2009
+			07/06/2010
+			Mon
+			19:00 - 21:00
+			30 weeks
+			60
+
+			CB
+			</div>
+
+			<div class="coursecontent barry entry evening">
+				Barry  Barry College, Colcot Rd, CF62 8YJ 
+				
+			CBM003 - Entry 2
+			17/09/2009
+			27/06/2010
+			Thu
+			18:30 - 20:30
+			30 weeks
+			60
+
+			CB
+			</div>
+
+			<div class="coursecontent barry entry evening">
+			Barry  Barry Comprehensive School, Port Road West,   CF62 8ZJ 
+
+			CMM009 - Entry 2
+			29/09/2009
+			22/06/2010
+			Tue
+			19:00 - 21:00
+			30 weeks
+			60
+
+			CBM
+			</div>
+
+			<div class="coursecontent barry entry evening">
+			Barry  Barry Library, King Square,  CF64 4RW 
+
+
+			CMM003 - Entry 1
+			01/10/2009
+			24/06/2010
+			Thu
+			17:30 - 19:30
+			30 weeks
+			60
+
+			CBM
+			</div>
+
+			<div class="coursecontent barry entry morning">
+			Barry  Palmerston Community Learning Centre.  CF63 2NT 
+
+
+			CMM001 - Entry 1
+			  28/09/2009
+			  21/06/2010
+			  Mon
+			  09:30 - 11:30
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+
+			<div class="coursecontent barry entry evening">
+				Barry  Palmerston Community Learning Centre.  CF63 2NT 
+				
+			CMM002 - Entry 1
+			30/09/2009
+			23/06/2010
+			Wed
+			19:00 - 21:00
+			30 weeks
+			60
+
+			CBM
+			</div>
+
+			<div class="coursecontent barry entry morning">
+				Barry  Palmerston Community Learning Centre.  CF63 2NT 
+				
+			CMM010 - Entry 2
+			01/10/2009
+			24/06/2010
+			Thu
+			10:00 - 12:00
+			30 weeks
+			60
+
+			CBM
+			</div>
+
+			<div class="coursecontent cardiffbay entry morning">
+			Butetown  Butetown History &amp; Arts Centre, Cadoc Crescent, CF63 2NT 
+
+			CDM012 - Entry 1
+			  23/09/2009
+			  11/06/2010
+			  Wed, Fri
+			  09:30 - 11:30
+			  30 weeks
+			  120
+			  279 251.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="25110"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM012" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="23/09/20099" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="09:30 - 11:30" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Butetown" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+				 	 	 	 	 	  </form>
+
+			</div>
+
+			<div class="coursecontent canton entry lunchtime">
+			Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+
+
+			CCM001 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  13:00 - 15:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent canton entry evening">
+				Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+				
+			CCM002 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent canton entry lunchtime">
+				Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+				
+			CCM004 - Entry 1
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  13:00 - 15:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent canton entry evening">
+				Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+				
+			CCM003 - Entry 1
+			  23/09/2009
+			  30/06/2010
+			  Wed
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent canton entry evening">
+				Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+				
+			CCM023 - Entry 2
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent canton entry morning">
+				Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+				
+			CCM025 - Entry 2
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent canton entry evening">
+				Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+				
+			CCM026 - Entry 2
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent canton entry lunchtime">
+				Canton Severn Road Adults Learning Centre.  CF11 9DZ 
+				
+			CCM024 - Entry 2
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  13:00 - 15:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent cardiffcentre entry evening">
+			Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+
+			 CDM013 - Entry 1
+			 28/09/2009
+			 14/06/2010
+			 Mon
+			 19.00 - 21.00
+			 30 weeks
+			 60
+			 139 125.10
+			 PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM013" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Mynediad" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="28/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19.00 - 21.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Cardiff Centre " />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+			  </div>
+
+			<div class="coursecontent cardiffcentre entry lunchtime">
+				Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+				
+			 CDM014 - Entry 1
+			 28/09/2009
+			 21/06/2010
+			 Mon, Wed
+			 13.00 - 14.00
+			 30 weeks
+			 60
+			 139 125.10
+			 PC
+			  <form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM014" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Mynediad" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="28/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="13.00 - 14.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Cardiff Centre " />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+			</div>
+
+
+			<div class="coursecontent cardiffcentre entry evening">
+				Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+				
+			 CDM015 - Entry 1
+			 01/10/2009
+			 17/06/2010
+			 Thu
+			 18.30 - 20.30
+			 30 weeks
+			 60
+			 139 125.10
+			 PC
+			  <form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM015" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Mynediad" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="01/10/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="18.30 - 20.30" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Cardiff Centre " />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+
+			 </div>
+
+			<div class="coursecontent cardiffcentre entry morning">
+			Cardiff Centre  Coleg Glan Hafren, 35 The Parade,  CF24 3AD 
+
+
+			 CGM001 
+
+
+			 Tue
+			 10.00 - 12.00
+			 30 weeks
+			 60
+			 139
+			 CGH
+			  </div>
+
+			<div class="coursecontent cardiffcentre entry evening">
+				Cardiff Centre  Coleg Glan Hafren, 35 The Parade,  CF24 3AD 
+				
+			 CGM002 
+
+
+			 Tue
+			 19.00 - 21.00
+			 30 weeks
+			 60
+
+			 CGH
+
+			</div>
+
+
+			<div class="coursecontent cardiffcentre entry evening">
+			Cathays  Cathays High School, Crown Way.  CF14 3XG   
+
+
+			 CCM027 - Entry 2 
+			 21/09/2009
+			 05/07/2010
+			 Mon
+			 19.00 - 21.00
+			 30 weeks
+			 60
+			 139
+			 CSC
+			  </div>
+			<div class="coursecontent cardiffcentre entry evening">
+				Cathays  Cathays High School, Crown Way.  CF14 3XG   
+				
+
+			 CCM028 - Entry 2 
+			 22/09/2009
+			 29/06/2010
+			 Tue
+			 19.00 - 21.00
+			 30 weeks
+			 60
+			 139
+			 CSC
+			  </div>
+			<div class="coursecontent cardiffcentre entry evening">
+				Cathays  Cathays High School, Crown Way.  CF14 3XG   
+				
+
+			 	  CCM005 - Entry 1 
+			 	  22/09/2009
+			 	  29/06/2010
+			 	  Tue
+			 	  19.00 - 21.00
+			 	  30 weeks
+			 	  60
+			 	  139
+			 	  CSC
+			 	  </div> 
+			<div class="coursecontent cowbridge entry evening">
+
+			Cowbridge Cowbridge Community college, Old Hall, High Street.  CF71 7AH 
+
+
+			CCM004 - Entry 1
+			  28/09/2009
+			  21/06/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+			<div class="coursecontent cowbridge entry morning">
+				Cowbridge Cowbridge Community college, Old Hall, High Street.  CF71 7AH 
+				
+
+
+			CCM005 - Entry 1
+			  28/09/2009
+			  21/06/2010
+			  Mon
+			  09:30 - 11:30
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+
+			<div class="coursecontent cowbridge entry lunchtime">
+				Cowbridge Cowbridge Community college, Old Hall, High Street.  CF71 7AH 
+				
+
+			CCM011 - Entry 2
+			  30/09/2009
+			  23/06/2010
+			  Wed
+			  13:00 - 15:00
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+
+			<div class="coursecontent cowbridge entry evening">
+				Cowbridge Cowbridge Community college, Old Hall, High Street.  CF71 7AH 
+				
+
+			CCM012 - Entry 2
+			  01/10/2009
+			  24/06/2010
+			  Thu
+			  19:00 - 21:00
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+
+			<div class="coursecontent penarth barry entry evening">
+
+			Dinas Powys Golf House, Highwalls Road,  CF64 4AJ 
+
+
+
+			CDM016 - Entry 1
+			  22/09/2009
+			  25/05/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM016" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="22/09/20099" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19:00 - 21:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Dinas Powys" />
+			                             <input type="submit" value="Pay Online" name="submit">
+			</form>
+
+			</div>
+			<div class="coursecontent ely entry morning">
+			Ely Michaelston Adult Centre (The MAC). CF5 4SX 
+
+
+			CCM006 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+			<div class="coursecontent ely entry evening">
+				Ely Michaelston Adult Centre (The MAC). CF5 4SX 
+
+
+			CCM007 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+			<div class="coursecontent ely entry evening">
+				Ely Michaelston Adult Centre (The MAC). CF5 4SX 
+
+			CCM029 - Entry 2
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+			<div class="coursecontent ely entry morning">
+				Ely Michaelston Adult Centre (The MAC). CF5 4SX 
+
+			CCM030 - Entry 2
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+			<div class="coursecontent llandaf entry evening">
+
+			Gabalfa Gabalfa Community Centre,  CF14 2QQ 
+
+
+			CCM008 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+			<div class="coursecontent llandaf entry evening">
+				Gabalfa Gabalfa Community Centre,  CF14 2QQ 
+
+			CCM031 - Entry 2
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent llandaf entry evening">
+				Gabalfa Gabalfa Community Centre,  CF14 2QQ 
+
+			CCMM009 - Entry 2
+			  29/09/2009
+			  22/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+
+
+			<div class="coursecontent llanishen entry evening">
+
+			Llanedeyrn Llanedeyrn Community Centre. (Powerhouse)  CF14 2QQ 
+
+
+
+			CCM009 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+			<div class="coursecontent llanishen entry evening">
+
+
+			Llanedeyrn Ysgol Y Berllan Deg, Circle Way East. CF23 9PD 
+
+
+			CDM019 - Entry 2
+			  25/09/2009
+			  11/06/2010
+			  Fri
+			  09:30 - 11:30
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM019" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 2" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="25/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="09:30 - 11:30" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Llanedeyrn" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+				</form>
+
+			</div>
+
+
+			<div class="coursecontent llanishen entry evening">
+
+			Llanishen Ty Celyn Adults Centre, Cardiff High School.  CF23 6EG 
+
+
+
+			CCM010 - Entry 1
+			  23/09/2009
+			  30/06/2010
+			  Wed
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			   CSC
+			</div>
+
+
+			<div class="coursecontent llanishen entry evening">
+				Llanishen Ty Celyn Adults Centre, Cardiff High School.  CF23 6EG 
+
+
+			CCM032 - Entry 2
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent llandaf entry evening">
+
+
+			Llandaf UWIC, Llandaff Campus, Western Avenue. CF5 2YB 
+
+
+			CDM017 - Entry 1
+			  24/02/2009
+			  15/12/2009
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM017 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="25/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19:00 - 21:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Llandaf" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+				 	 	 	 	 	  </form>
+
+			</div>
+
+
+			<div class="coursecontent llandaf entry evening">
+				Llandaf UWIC, Llandaff Campus, Western Avenue. CF5 2YB 
+
+			CDM018 - Entry 2
+			  22/09/2009
+			  08/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM018 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 2" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="22/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19:00 - 21:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Llandaf" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+				 	 	 	 	 	  </form>
+
+			</div>
+
+			<div class="coursecontent llantwitmajor entry morning">
+
+
+			Llantwit Major Llantwit Major Youth centre, Llandennis Rd  CF61 1ST 
+
+			CDM021 - Entry 1
+			  21/09/2009
+			  14/06/2010
+			  Mon
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM021 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="21/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="10:00 - 12:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Llantwit Major" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+				 	 	 	 	 	  </form>
+
+			</div>
+
+			<div class="coursecontent llantwitmajor entry evening">
+
+
+			Llantwit Major Llantwit Major Comprehensive School, Ham Lane East. CF61 1TQ 
+
+
+
+			CMM006 - Entry 1
+			  30/09/2009
+			  23/06/2010
+			  Wed
+			  19:00 - 21:00
+			  30 weeks
+			  60
+
+			  CBM
+
+			</div>
+
+			<div class="coursecontent llantwitmajor entry evening">
+				Llantwit Major Llantwit Major Comprehensive School, Ham Lane East. CF61 1TQ 
+
+
+			CMM013 - Entry 2
+			  29/09/2009
+			  22/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+
+			  CBM
+
+			</div>
+
+			<div class="coursecontent llanrumney entry morning">
+
+
+			Llanrumney Housing Office, Countisbury Avenue.  CF3 5NQ 
+
+
+
+			CDM020 - Entry
+			  28/09/2009
+			  21/06/2010
+			  Mon,Thu
+			  9:30 - 11:30
+			  30 weeks
+			  120
+			  279 251.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="25110"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM020 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="28/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="9:30 - 11:30" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Llanrumney" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+				 	 	 	 	 	  </form>
+
+
+			</div>
+
+			<div class="coursecontent penarth entry evening">
+
+
+			Penarth Washington Gallery, 1-3 Washington Buildings, Stanwell Road,  CF64 2AD  
+
+
+			CDM029 - Entry 1
+			  04/11/2009
+			  07/07/2010
+			  Wed
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM029 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="04/11/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19:00 - 21:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Penarth" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+				 	 	 	 	 	  </form>
+
+			</div>
+
+
+			<div class="coursecontent llantwitmajor entry lunchtime">
+
+			Penarth Penarth Community Centre, St Cyres Close.  CF64 2XP  
+
+			CMM007 - Entry 1
+			  29/09/2009
+			  22/06/2010
+			  Tue
+			  12:30 - 14:30
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+
+
+			<div class="coursecontent llantwitmajor entry evening">
+				Penarth Penarth Community Centre, St Cyres Close.  CF64 2XP  
+
+
+			CMM008 - Entry 1
+			  28/09/2009
+			  21/06/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+
+			  CBM
+			</div>
+
+
+			<div class="coursecontent llantwitmajor entry evening">
+				Penarth Penarth Community Centre, St Cyres Close.  CF64 2XP  
+
+
+			CMM015 - Entry 2
+			  01/10/2009
+			  24/06/2010
+			  Thu
+			  19:00 - 21:00
+			  30 weeks
+			  60
+
+			  CBM
+
+			</div>
+
+			<div class="coursecontent llantwitmajor entry morning">
+
+
+			Penarth Y Kymin, Beach Road,  CF64 1JX 
+
+
+
+			CMM014 - Entry 2
+			  30/09/2009
+			  23/06/2010
+			  Wed
+			  09:30 - 11:30
+			  30 weeks
+			  60
+
+			  CBM
+
+			</div>
+
+			<div class="coursecontent ely entry lunchtime">
+
+
+			Pentrebane Community Centre, Beechley Drive.  CF5 3SG 
+
+
+			CCM011 - Entry 1
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  13:00 - 15:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+
+			<div class="coursecontent pentwyn entry lunchtime">
+
+			Pentwyn Community Education Centre, (The Dome), Bryn Heulog.  CF23 7JD 
+
+
+
+			CCM012 - Entry 1
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  13:00 - 15:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent roath entry morning">
+
+
+			Penylan Howardian Centre, Hammond Way, Penylan. 
+
+			CCM014 - Entry 1
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent roath entry evening">
+				Penylan Howardian Centre, Hammond Way, Penylan. 
+
+
+			CCM033 - Entry 2
+			  23/09/2009
+			  30/06/2010
+			  Wed
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent roath entry evening">
+				Penylan Howardian Centre, Hammond Way, Penylan. 
+
+
+			CCM034 - Entry 2
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent roath entry morning">
+
+				Penylan Howardian Centre, Hammond Way, Penylan. 
+
+			CCM035 - Entry 2
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+
+			 </div>
+
+			<div class="coursecontent roath entry ">
+
+
+			Penylan Penylan Library, Penylan rd.  CF23 5HW  
+
+
+			CCM015 - Entry 1
+			  tbc
+			  tbc
+			  tbc
+			  tbc
+			  30 weeks
+			  60
+			  139
+			  CSC
+
+			</div>
+
+			<div class="coursecontent pontprennau entry evening">
+
+			Pontprennau  Asda, Dering Rd. CF23 8NL 
+
+
+
+			CCM016 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+
+			</div>
+
+			<div class="coursecontent whitchurch llandaf entry evening">
+
+
+			Radyr  Radyr Adult Education Centre, Heol Isaf.  CF15 8XG 
+
+
+			CCM017 - Entry 1
+			  21/09/2009
+			  05/07/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent whitchurch llandaf entry evening">
+				Radyr  Radyr Adult Education Centre, Heol Isaf.  CF15 8XG 
+
+
+			CCM019 - Entry 1
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+			<div class="coursecontent whitchurch llandaf entry morning">
+				Radyr  Radyr Adult Education Centre, Heol Isaf.  CF15 8XG 
+
+
+			CCM018 - Entry 1
+			  25/09/2009
+			  02/07/2010
+			  Fri
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+
+			</div>
+
+
+			<div class="coursecontent whitchurch llandaf entry evening">
+				Radyr  Radyr Adult Education Centre, Heol Isaf.  CF15 8XG 
+
+			CCM036 - Entry 2
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+
+			<div class="coursecontent barry entry lunchtime">
+
+			Rhoose  International Centre for Aerospace Training (ICAT),  CF62 3DP 
+
+
+			CDM022 - Entry 1
+			  25/09/2009
+			  25/06/2010
+			  Fri
+			  12:00 - 14:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM022 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="25/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="12:00 - 14:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Rhoose" />
+										 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+				 	 	 	 	 	  </form>
+
+			</div>
+
+
+
+			<div class="coursecontent rumney entry morning">
+
+			Rumney  Ysgol Bro Eirwg, Ridgeway Rd.  CF3 4AB 
+
+
+
+			CDM023 - Entry 
+			  23/09/2009
+			  11/06/2010
+			  Wed,Fri
+			  09:30 - 11:30
+			  30 weeks
+			  120
+			  279 251.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="25110"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM023 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="23/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="09:30 - 11:30" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Rumney" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+
+				 	 	 	 	 	  </form>
+
+
+
+
+			</div>
+
+			<div class="coursecontent rumney entry lunchtime">
+
+			Rumney  Coleg Glan Hafren.  CF3 1XZ 
+
+
+
+			CGM003 - Entry 2 
+
+
+			  Thu
+			  13:00 - 15:00
+			  30 weeks
+				  60
+
+			  CGH
+			</div>
+
+
+
+
+
+			<div class="coursecontent rumney entry evening">
+
+			Rumney  Rumney Community Education Centre.  CF3 3JA 
+
+
+			CCM020 - Entry 1 
+			  23/09/2009
+			  30/06/2010
+			  Wed
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+
+
+
+			<div class="coursecontent splott entry morning">
+
+			Splott  Ysgol Glan Morfa.  CF24 2LJ  
+
+
+			CDM024 - Entry 
+			  23/09/2009
+			  11/06/2010
+			  Wed,Fri
+			  09:00 - 11:00
+			  30 weeks
+			  120
+			  279 251.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="25110"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM024 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="23/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="09:00 - 11:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Splott" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+
+				 	 	 	 	 	  </form>
+
+			</div>
+
+
+
+
+			<div class="coursecontent splott entry lunchtime">
+
+			Splott  East Moors Community Centre.  CF24 2AD 
+
+
+
+			CCM021 - Entry 1
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  13:00 - 15:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+
+
+			<div class="coursecontent splott entry morning">
+
+				Splott  East Moors Community Centre.  CF24 2AD 
+
+			CCM037 - Entry 2
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  09:30 - 11:30
+			  30 weeks
+			  60
+			  139
+			  CSC
+
+			</div>
+
+
+
+			<div class="coursecontent llanishen entry morning">
+
+
+			Thornhill The Training Centre,  Cf14 9GA 
+
+
+			CDM025 - Entry 1 
+			  02/10/2009
+			  18/06/2010
+			  Fri
+			  10:00 - 12:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM025 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="02/10/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="10:00 - 12:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Thornhill" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+
+				 	 	 	 	 	  </form>
+			</div>
+
+
+
+
+			<div class="coursecontent whitchurch entry lunchtime">
+
+
+			Whitchurch  Ararat Baptist Church,  CF14 1PT 
+
+
+			CDM027 - Entry 2 
+			  22/09/2009
+			  08/06/2010
+			  Tue
+			  13:00 - 15:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM027 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 2" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="22/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="13:00 - 15:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Whitchurch" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+
+				 	 	 	 	 	  </form>
+
+
+			</div>
+
+			<div class="coursecontent whitchurch entry evening">
+
+
+			Whitchurch  Ysgol Melin Gruffydd.  CF14 1NL 
+
+
+			CDM026 - Entry 1 
+			  28/09/2009
+			  14/06/2010
+			  Mon
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+				 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+				 	 	 	 	 	     id="paymentpage"
+				 	 	 	 	 	 	 method="post"
+				 	 	 	 	 	 	 name="paymentpage_row1"
+				 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+				 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+				 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+				 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+				 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+				 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+				 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+				 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDM026 " />
+				 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Entry 1" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="28/09/2009" />
+				 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19:00 - 21:00" />
+				 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Whitchurch" />
+				 	 	 	 	 	 	 <input type="submit" value="Pay Online" name="submit">
+
+
+
+
+
+				 	 	 	 	 	  </form>
+			</div>
+
+
+
+
+			<div class="coursecontent whitchurch entry evening">
+
+			Whitchurch  Whitchurch High School Lower.  CF14 1AD 
+
+
+
+			CCM022 - Entry 1 
+			  24/09/2009
+			  01/07/2010
+			  Thu
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+
+
+
+			<div class="coursecontent whitchurch entry evening">
+				Whitchurch  Whitchurch High School Lower.  CF14 1AD 
+
+			CCM038 - Entry 2 
+			  22/09/2009
+			  29/06/2010
+			  Tue
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+
+
+
+
+			<div class="coursecontent whitchurch entry evening">
+				Whitchurch  Whitchurch High School Lower.  CF14 1AD 
+
+
+			CCM039 - Entry 2 
+			  23/09/2009
+			  30/06/2010
+			  Wed
+			  19:00 - 21:00
+			  30 weeks
+			  60
+			  139
+			  CSC
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- start of proficiency level -->
+
+			<div class="coursecontent barry proficiency evening">
+			Y Barri  Ysgol Gyfun Bro Morgannwg, Colcot Road,  CF62 8YU 
+
+
+
+			  CDH003 - Cefndir
+			  29/09/2009
+			  15/06/2010
+			  Maw / Tue 
+			  19.00 - 21.00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH003" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value=" Cefndir" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="29/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19.00 - 21.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Y Barri" />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+
+
+			</div>
+
+
+
+			<div class="coursecontent cardiffcentre proficiency morning">
+
+			Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+
+			  CDH001 - Hyfedredd/Cefndir
+			  28/09/2009
+			  20/06/2010
+			  Llun, Maw / Mon,Tue
+			  10.00 - 12.00
+			  30 weeks
+			  120
+			  279 251.10
+			  PC
+			   <form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="25110"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH001" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Hyfedredd/Cefndir" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="28/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="10.00 - 12.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Cardiff Centre " />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+
+				 </div>
+
+			<div class="coursecontent cardiffcentre proficiency evening">
+				Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+
+			  CDH002 - Hyfedredd/Cefndir
+			  29/09/2009
+			  21/06/2010
+			  Maw,Mer / Tue,Wed
+			  19.00 - 21.00
+			  30 weeks
+			  120
+			  279 251.10
+			  PC
+
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="25110"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH002" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Hyfedredd/Cefndir" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="29/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19.00 - 21.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Cardiff Centre " />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+			</div>
+			   <div class="coursecontent cardiffcentre proficiency evening">
+
+			Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+
+			  CDH004 - Cefndir
+			  01/10/2009
+			  17/06/2010
+			  Iau / Thur
+			  19.00 - 21.00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH004" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Hyfedredd/Cefndir" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="01/10/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="19.00 - 21.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Cardiff Centre " />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+			   </div>
+			<div class="coursecontent cardiffcentre proficiency morning">
+			Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+
+			  CDH005 - Cefndir
+			  30/09/2009
+			  16/06/2010
+			  Mer/Wed
+			  10.00 - 12.00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH005" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Hyfedredd/Cefndir" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="30/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="10.00 - 12.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Cardiff Centre " />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+			   </div>
+
+			<div class="coursecontent cardiffcentre proficiency evening">
+
+			Cardiff Centre  Coleg Glan Hafren CF24 3AD 
+
+
+			  CDH001 - Hyfedredd
+
+
+			  Iau/Thu
+			  19.00 - 21.00
+			  30 weeks
+			  60
+			  139
+			  CGH
+
+			</div>
+
+
+
+			<div class="coursecontent barry proficiency lunchtime">
+
+			Barry  Palmerston Community Learning Centre,  CF63 2NT 
+
+
+
+			  CDH006 - Gloywi
+			  29/09/2009
+			  15/06/2010
+			  Maw / Tue
+			  13.00 - 15.00
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH006" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Gloywi" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="29/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="13.00 - 15.00" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Y Barri" />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+
+			</div>
+
+
+			<div class="coursecontent cardiffbay proficiency morning">
+
+
+			Cardiff Bay  Red Dragon FM, Atlantic Wharf.  CF10 4DJ 
+
+
+			  CDH007 - Gloywi
+			  02/10/2009
+			  18/06/2010
+			  Gwe / Fri
+			  09.15 - 11.15
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+
+
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH007" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Gloywi" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="02/10/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="09.15 - 11.15" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Bae Caerdydd" />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+					
+												</div>
+					
+
+			  <div class="coursecontent cardiffcentre proficiency morning">
+
+
+			Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+
+
+
+			  CDH009 - Gloywi
+			  02/10/2009
+			  18/06/2010
+			  Gwe / Fri
+			  09.30 - 11.30
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+
+			
+
+			<form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Gloywi" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="02/10/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="09.30 - 11.30" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Canol Caerdydd" />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+
+</div>
+			<div class="coursecontent cardiffcentre proficiency evening">
+				Cardiff Centre  Welsh for Adults Centre, Cardiff University,  CF10 3EU 
+
+
+
+			  CDH010 - Gloywi
+			  29/09/2009
+			  15/06/2010
+			  Maw / Tue
+			  17.15 - 19.15
+			  30 weeks
+			  60
+			  139 125.10
+			  PC
+			   <form action="https://securetrading.net/authorize/form.cgi"
+					 		 	 	 	 	 	 		 class="inlinelabel label33 showfieldset fieldsetpad03 fieldmarginvert01 labelbold"
+					 		 	 	 	 	 	 	     id="paymentpage"
+					 		 	 	 	 	 	 	 	 method="post"
+					 		 	 	 	 	 	 	 	 name="paymentpage_row1"
+					 		 	 	 	 	 	 	 	 onsubmit="return submitpayment();">
+
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="merchant" value="cardiffunia11414"/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" name="amount" value="12510"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="requiredfields" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="merchantemail" value="mahoneyg@cardiff.ac.uk"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="customeremail" value="0"/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="callbackurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="failureurl" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="settlementday" value=""/>
+					 		 	 	 	 	 	 		 <input type="hidden" name="formref" value=""/>
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursecode" name="coursecode" value="CDH010" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursename" name="coursename" value="Gloywi" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursestart" name="coursestart" value="29/09/2009" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="coursedate" name="coursedate" value="17.15 - 19.15" />
+					 		 	 	 	 	 	 	 	 <input type="hidden" id="courselocation" name="courselocation" value="Canol Caerdydd" />
+					 		 	 	 	 	 	 	  	 <input type="submit" value="Pay Online" name="submit">
+
+					 		 	 	 	 	 	 	  </form>
+
+			</div>	 
+
+
+
+
+
+
+
+	</body>
+</html>
